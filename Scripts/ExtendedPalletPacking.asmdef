@@ -1,0 +1,23 @@
+{
+    "name": "ExtendedPalletPacking",
+    "rootNamespace": "",
+    "references": [
+        "GUID:611601e90e6642c4bb897855afbc8383",
+        "GUID:20441fdfffb12d24da9276657491883e",
+        "GUID:c86a26d8b8257bb4fa71737f63116422",
+        "GUID:0520acb06efa643bbbb2e8d96bd56fad"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "0Harmony.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
