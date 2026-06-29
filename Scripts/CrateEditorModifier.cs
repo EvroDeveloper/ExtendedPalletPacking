@@ -154,10 +154,8 @@ namespace LabWorks.ExtendedPalletPacking
             }
         }
         "));
-            modRequests.Add(new DeleteLineRequest(168));
-            modRequests.Add(new InsertLineRequest(168, @"
-            foreach (Crate crate in Crates)
-            {
+            modRequests.Add(new ReplaceLineRequest(168, "foreach (Crate crate in Crates)"));
+            modRequests.Add(new InsertLineRequest(169, @"{
                 if (crate.PackWithFlag && !BuildFlags.Contains(crate.RequiredBuildFlag)) continue;
                 scannables.Add(crate);
             }
